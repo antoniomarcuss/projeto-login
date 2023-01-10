@@ -14,7 +14,7 @@ lilás: #5f2c82
 
 body,html{
     background-color:rgba(43, 15, 1, 0.911) ;
-    height: 100%;
+    height: 100vh;
     width: 100vw;
 
 }
