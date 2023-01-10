@@ -31,16 +31,19 @@ section#login{
     height: 500px;
     width: 250px;
     border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.468);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
     display: block;
-    background:rgba(43, 15, 1, 0.911) url(../imagens/login.jpg) ;
+    background:#2b0f01e8 url(../imagens/login.jpg) ;
     height: 200px;
     background-size: cover;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.457);
